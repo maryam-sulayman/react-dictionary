@@ -6,14 +6,12 @@ export default function WordResult(props) {
     return (
       <div className="Results">
         <h1>{props.results.word}</h1>
-        <h3>{props.results.partOfSpeech}</h3>
 
         {props.results.meanings.map(function (definition, index) {
-          console.log(definition);
           return (
             <div key={index}>
+              <h3>{definition.partOfSpeech}</h3>
               <p> {definition.definitions[0].definition}</p>
-              <p> {definition.synonyms[0]}</p>
             </div>
           );
         })}
