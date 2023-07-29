@@ -11,7 +11,6 @@ export default function WordResult(props) {
           return (
             <div key={index}>
               <h3 className="mt-3 text-capitalize">{meaning.partOfSpeech}</h3>
-
               <Definitions definition={meaning} />
             </div>
           );
