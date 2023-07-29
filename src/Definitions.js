@@ -19,7 +19,13 @@ export default function Definitions(props) {
             </div>
           );
         } else {
-          return null;
+          return (
+            <div>
+              {" "}
+              <strong>Definition: </strong>
+              {definition.definition}
+            </div>
+          );
         }
       })}
     </div>
