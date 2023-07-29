@@ -2,7 +2,6 @@ import React from "react";
 import Definitions from "./Definitions";
 
 export default function WordResult(props) {
-  console.log(props);
   if (props.results) {
     return (
       <div className="Results">
@@ -11,8 +10,8 @@ export default function WordResult(props) {
         {props.results.meanings.map(function (meaning, index) {
           return (
             <div key={index}>
-              <h3>{meaning.partOfSpeech}</h3>
-              <strong>Definition:</strong>
+              <h3 className="mt-3 text-capitalize">{meaning.partOfSpeech}</h3>
+
               <Definitions definition={meaning} />
             </div>
           );

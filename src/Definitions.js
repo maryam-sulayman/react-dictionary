@@ -7,15 +7,24 @@ export default function Definitions(props) {
         if (definition.example) {
           return (
             <div key={index}>
-              <div>{definition.definition}</div>
               <div>
-                <strong>e.g.</strong> {definition.example}
+                <strong>Definition: </strong>
+                {definition.definition}
+              </div>
+              <div>
+                <strong>e.g.</strong> <em>{definition.example}</em>
               </div>
               <br />
             </div>
           );
         } else {
-          return definition.definition;
+          return (
+            <div>
+              {" "}
+              <strong>Definition: </strong>
+              {definition.definition}
+            </div>
+          );
         }
       })}
     </div>
