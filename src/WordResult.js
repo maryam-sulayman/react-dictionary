@@ -2,7 +2,6 @@ import React from "react";
 import Definitions from "./Definitions";
 
 export default function WordResult(props) {
-  console.log(props.results);
   if (props.results) {
     return (
       <div className="Results">

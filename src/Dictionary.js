@@ -26,7 +26,7 @@ export default function Dictionary() {
       <form onSubmit={handleSubmit}>
         <input
           type="search"
-          className="form-control w-50"
+          className="form-control mb-5"
           autoFocus="on"
           onChange={handleKeywordValue}
         />

@@ -6,7 +6,11 @@ export default function Definitions(props) {
       {props.definitions.definitions.map(function (definition, index) {
         return (
           <div key={index}>
-            <p>{definition.definition}</p>
+            <div>
+              {definition.definition}
+              <br />
+              {definition.example}
+            </div>
           </div>
         );
       })}
