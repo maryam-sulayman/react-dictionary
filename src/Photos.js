@@ -15,7 +15,11 @@ export default function Photos(props) {
                   target="_blank"
                   rel="noreferrer "
                 >
-                  <img src={picture.src.landscape} className="img-fluid mb-4" />
+                  <img
+                    src={picture.src.landscape}
+                    className="img-fluid mb-4"
+                    alt="different images based on searched keyword"
+                  />
                 </a>
               </div>
             );
