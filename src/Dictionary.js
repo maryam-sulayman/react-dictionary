@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import WordResult from "./WordResult";
 import Photos from "./Photos";
-import Photos from "./Photos";
 import axios from "axios";
 import "./Dictionary.css";
 
