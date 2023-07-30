@@ -6,3 +6,7 @@
 .Photos img:hover {
   transform: scale(1.2);
 }
+
+.Photos h2 {
+  font-size: 25px;
+}

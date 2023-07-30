@@ -5,6 +5,7 @@ export default function Photos(props) {
   if (props.pictures) {
     return (
       <section className="Photos">
+        <h2 className="text-center mb-4">•Images•</h2>
         <div className="row">
           {props.pictures.photos.map(function (picture, index) {
             return (
