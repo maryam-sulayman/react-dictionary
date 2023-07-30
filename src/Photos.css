@@ -1,3 +1,9 @@
+.Photos h2 {
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+
 .Photos img {
   border-radius: 5px;
   transition: all 200ms ease-in-out;
@@ -5,8 +11,4 @@
 
 .Photos img:hover {
   transform: scale(1.2);
-}
-
-.Photos h2 {
-  font-size: 25px;
 }

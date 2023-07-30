@@ -1,3 +1,14 @@
+.Results h1 {
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
 .Results h2 {
-  font-weight: 800;
+  font-size: 25px;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+.Phonetics {
+  font-size: 23px;
+  font-weight: 900;
 }

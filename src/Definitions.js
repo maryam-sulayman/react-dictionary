@@ -1,18 +1,24 @@
 import React from "react";
 import Synonyms from "./Synonyms";
+import "./Definitions.css";
 
 export default function Definitions(props) {
   if (props.definition.example) {
     return (
       <div className="Definitions">
-        <div> • {props.definition.definition}</div>
+        <div className="Definition-text"> {props.definition.definition}</div>
         <div>
-          <em> e.g. {props.definition.example}</em>
+          <em className="Definition-example">
+            {" "}
+            <strong>e.g.</strong> {props.definition.example}
+          </em>
+          <Synonyms synonyms={props.definition.synonyms} />
         </div>
-        <Synonyms synonyms={props.definition.synonyms} />
       </div>
     );
   } else {
-    return <div> • {props.definition.definition}</div>;
+    return (
+      <div className="Definition-text"> {props.definition.definition}</div>
+    );
   }
 }

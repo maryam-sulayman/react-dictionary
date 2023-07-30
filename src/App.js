@@ -29,8 +29,14 @@ export default function App() {
           target="_black"
           rel="noreferrer"
         >
-          Netlify
+          Netlify.
         </a>
+        <div>
+          <a href="https://www.freepik.com/free-vector/purple-fluid-background-frame_14547781.htm#query=purple&position=29&from_view=search&track=sph">
+            Image by rawpixel.com
+          </a>{" "}
+          on Freepik
+        </div>
       </footer>
     </div>
   );

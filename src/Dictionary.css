@@ -1,9 +1,11 @@
 .Dictionary {
-  color: black;
+  color: rgba(0, 0, 0, 0.502);
   margin: 30px 0;
 }
 .Dictionary h3 {
-  font-size: 16px;
+  font-size: 25px;
+  font-weight: 800;
+  letter-spacing: 2px;
 }
 
 .Dictionary section {
@@ -11,5 +13,5 @@
   padding: 30px;
   margin-bottom: 20px;
   border-radius: 10px;
-  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  background: linear-gradient(120deg, #ebd9fb 0%, #c7def5 100%);
 }
