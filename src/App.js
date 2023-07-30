@@ -8,15 +8,29 @@ export default function App() {
         <Dictionary defaultKeyword="happy" />
       </div>
       <footer className="text-center mb-4">
-        <a href="https://github.com/maryam-sulayman/react-dictionary">
+        <a
+          href="https://github.com/maryam-sulayman/react-dictionary"
+          target="_black"
+          rel="noreferrer"
+        >
           Open source{" "}
         </a>
         code by{" "}
-        <a href="https://www.linkedin.com/in/maryam-sulayman-4484601b3/">
+        <a
+          href="https://www.linkedin.com/in/maryam-sulayman-4484601b3/"
+          target="_black"
+          rel="noreferrer"
+        >
           Maryam Sulayman
         </a>
         , hosted on{" "}
-        <a href="https://teal-moonbeam-a45a06.netlify.app/">Netlify</a>
+        <a
+          href="https://teal-moonbeam-a45a06.netlify.app/"
+          target="_black"
+          rel="noreferrer"
+        >
+          Netlify
+        </a>
       </footer>
     </div>
   );
