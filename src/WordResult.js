@@ -3,7 +3,6 @@ import Definitions from "./Definitions";
 import Audio from "./Audio";
 
 export default function WordResult(props) {
-  console.log(props);
   if (props.results) {
     return (
       <div className="Results">
