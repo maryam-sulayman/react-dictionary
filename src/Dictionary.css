@@ -15,3 +15,8 @@
   border-radius: 10px;
   background: linear-gradient(120deg, #ebd9fb 0%, #c7def5 100%);
 }
+@media (max-width: 990px) {
+  .Dictionary h3 {
+    font-size: 18px;
+  }
+}

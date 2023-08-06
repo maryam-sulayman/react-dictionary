@@ -6,14 +6,26 @@
 .App a {
   text-decoration: none;
   color: #5e428f;
+  letter-spacing: 2px;
 }
 body {
   background-image: url("./images/image1.jpg");
 
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
 }
 
 .App footer {
   font-size: 20px;
   font-weight: 900;
+}
+
+@media (max-width: 990px) {
+  .App footer {
+    font-size: 15px;
+    color: black;
+  }
+  .App a {
+    color: #5421ab;
+  }
 }

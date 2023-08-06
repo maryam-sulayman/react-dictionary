@@ -12,3 +12,11 @@
 .Photos img:hover {
   transform: scale(1.2);
 }
+@media (max-width: 990px) {
+  .Photos img:hover {
+    transform: scale(1);
+  }
+  .Photos h2 {
+    font-size: 23px;
+  }
+}

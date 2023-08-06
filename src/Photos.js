@@ -16,8 +16,8 @@ export default function Photos(props) {
                   rel="noreferrer "
                 >
                   <img
-                    src={picture.src.landscape}
-                    className="img-fluid mb-4"
+                    src={picture.src.portrait}
+                    className=" img-fluid mb-4"
                     alt="different images based on searched keyword"
                   />
                 </a>

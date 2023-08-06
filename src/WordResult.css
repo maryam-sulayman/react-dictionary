@@ -12,3 +12,16 @@
   font-size: 23px;
   font-weight: 900;
 }
+@media (max-width: 990px) {
+  .Results h1 {
+    font-size: 35px;
+  }
+  .Results h1,
+  .Phonetics {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  .Results h2 {
+    font-size: 23px;
+  }
+}
